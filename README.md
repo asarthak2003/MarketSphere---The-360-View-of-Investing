@@ -8,7 +8,7 @@ The application uses a **hybrid data architecture**, combining live APIs, web sc
 
 ## 📋 Table of Contents
 - [Features](#-features)
-- [Images] (#-images)
+- [Images](#-images)
 - [Technology Stack](#️-technology-stack)
 - [Project Structure](#-project-structure)
 - [Quick Start](#-quick-start)
