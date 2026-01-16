@@ -56,7 +56,7 @@ The application uses a **hybrid data architecture**, combining live APIs, web sc
 
 ---
 
-## 📸 Screenshots
+## 📸 Images
 
 ### 🏠 Home Page
 ![Home Page - Light Mode](images/home-light.png)
