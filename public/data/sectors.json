@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "fas fa-tractor",
+    "name": "Agriculture",
+    "description": "The one that gives us vegetables and fruits to eat.",
+    "companiesLink": "41 Listed Companies",
+    "marketCap": {"micro": 30, "small": 4, "mid": 1, "large": 0}
+  },
+  {
+    "icon": "fas fa-plane",
+    "name": "Airlines",
+    "description": "The one that takes us around the world in the shortest time.",
+    "companiesLink": "6 Listed Companies",
+    "marketCap": {"micro": 2, "small": 3, "mid": 0, "large": 1}
+  },
+  {
+    "icon": "fas fa-bolt",
+    "name": "Air Conditioners",
+    "description": "The one that's keeps it cool with no hassle.",
+    "companiesLink": "5 Listed Companies",
+    "marketCap": {"micro": 1, "small": 1, "mid": 2, "large": 1}
+  },
+  {
+    "icon": "fas fa-car",
+    "name": "Auto Ancillary",
+    "description": "The one that provides parts to keep our vehicles running.",
+    "companiesLink": "95 Listed Companies",
+    "marketCap": {"micro": 42, "small": 27, "mid": 21, "large": 5}
+  },
+  {
+    "icon": "fas fa-motorcycle",
+    "name": "Automobile Two & Three Wheelers",
+    "description": "The one that suits couples and smaller groups.",
+    "companiesLink": "7 Listed Companies",
+    "marketCap": {"micro": 1, "small": 2, "mid": 0, "large": 4}
+  },
+  {
+    "icon": "fas fa-building-columns",
+    "name": "Banks",
+    "description": "The one that manages all our financial transactions and money.",
+    "companiesLink": "43 Listed Companies",
+    "marketCap": {"micro": 0, "small": 20, "mid": 11, "large": 12}
+  },
+  {
+    "icon": "fas fa-laptop-code",
+    "name": "IT - Software",
+    "description": "The one that creates the digital world we live and work in.",
+    "companiesLink": "110 Listed Companies",
+    "marketCap": {"micro": 30, "small": 40, "mid": 30, "large": 10}
+  },
+  {
+    "icon": "fas fa-pills",
+    "name": "Pharmaceuticals",
+    "description": "The one that discovers and creates life-saving medicines.",
+    "companiesLink": "150 Listed Companies",
+    "marketCap": {"micro": 50, "small": 60, "mid": 25, "large": 15}
+  }
+]

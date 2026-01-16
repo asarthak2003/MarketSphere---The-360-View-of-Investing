@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPO - MarketSphere</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="global-header">
+    <a href="index.html" class="header-logo">MarketSphere</a>
+    <nav class="header-nav">
+      <a href="index.html">Home</a>
+      <a href="ipo.html">IPO</a>
+      <a href="market.html">Market</a>
+      <a href="mutual-funds.html">Mutual Funds</a>
+      <a href="brokers.html">Brokers</a>
+      <a href="sectors.html">Sectors</a>
+      <a href="stock-school.html">Stock School</a>
+    </nav>
+    <div class="header-user">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-bell"></i>
+      <!-- DARK MODE TOGGLE BUTTON -->
+      <div class="theme-toggle" id="theme-toggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </div>
+      <a href="signin.html" class="btn btn-primary">Sign In</a>
+    </div>
+  </header>
+
+  <main>
+    <header class="page-header">
+      <h1>Initial Public Offerings (IPO)</h1>
+    </header>
+
+    <div class="container">
+      
+      <section class="ipo-section">
+        <div class="section-header">
+          <h2>Ongoing IPOs</h2>
+          <a href="#" class="btn btn-outline">View All</a>
+        </div>
+        <!-- This grid will be filled by ipo.js -->
+        <div class="ipo-card-grid" id="ongoing-ipos-grid"> 
+          <p>Loading ongoing IPOs...</p>
+        </div>
+      </section>
+      
+      <section class="ipo-section">
+        <div class="section-header">
+          <h2>Upcoming IPOs</h2>
+          <a href="#" class="btn btn-outline">View All</a>
+        </div>
+        <!-- This grid will be filled by ipo.js -->
+        <div class="ipo-card-grid" id="upcoming-ipos-grid">
+          <p>Loading upcoming IPOs...</p>
+        </div>
+      </section>
+
+      <section class="ipo-section">
+        <div class="section-header">
+          <h2>New Listed IPOs</h2>
+          <a href="#" class="btn btn-outline">View All</a>
+        </div>
+        <!-- This grid will be filled by ipo.js -->
+        <div class="ipo-card-grid" id="listed-ipos-grid">
+          <p>Loading listed IPOs...</p>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- The FAQ section is static and doesn't need to be loaded from the API -->
+    <section class="faq-section">
+      <div class="container faq-container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>1. What is an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>An Initial Public Offering (IPO) is the process by which a private company becomes a public company by offering its shares to the public for the first time. The company gets listed on a stock exchange.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>2. Why do companies go for an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Companies go public to raise capital for expansion, pay off debt, provide an exit for early investors (like venture capitalists), or to gain public recognition and credibility.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>3. What is a Price Band?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>In a book-built issue, the company provides a price range (e.g., Rs 100 - Rs 110) within which investors can bid. The final price, or "Cut-off Price," is determined after the bidding process is complete.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>4. How can one apply for an IPO online?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>You can apply for an IPO through your brokerage account using the ASBA (Application Supported by Blocked Amount) facility. Your bank account is linked, and the application amount is blocked (not debited) until shares are allotted.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>5. What is the benefit of an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>For investors, it's an opportunity to buy shares of a company at an early stage, potentially benefiting from "listing gains" if the stock opens at a higher price, or from long-term growth.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>6. What are the disadvantages of an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>There is no guarantee of listing gains; the stock price can open lower than the issue price. Also, allotment is not guaranteed, especially for oversubscribed IPOs, as it's often done via a lottery system.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>7. What is the difference between book building and fixed price issue?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>In a fixed price issue, the company sets a single, fixed price for its shares. In a book-building issue (more common), the company provides a price band, and investors bid within that range. The final price is discovered based on demand.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>8. Is it mandatory to have a PAN number to apply in an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, a valid PAN (Permanent Account Number) is mandatory for all financial transactions in India, including applying for an IPO. Your PAN must be linked to your Demat and bank accounts.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>9. Where do I get an IPO application form?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>You don't need a physical form. You can apply online through your stockbroker's app or website (like Zerodha, Upstox) or through your net banking portal (e.g., HDFC, ICICI) via the ASBA facility.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>10. Can a minor apply in an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>A minor cannot apply for an IPO directly. However, an adult (guardian) can apply on behalf of a minor, provided the minor has a Demat account and a bank account in their name.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>11. What is the procedure to withdraw from an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, you can withdraw your IPO bid before the bidding window closes. You can do this through the same platform (broker or bank) you used to apply. The blocked funds will be released.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>12. How is IPO return calculated?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>IPO return is often first calculated as "listing gain/loss": ((Listing Price - Issue Price) / Issue Price) * 100. Any returns after the listing day are calculated just like any other stock based on the current market price (CMP).</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>13. What is the minimum and maximum investment one could do in the HNI category?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>The HNI (High Net-worth Individual) category, also known as the NII (Non-Institutional Investor) category, is for applications above ₹2 lakhs. The minimum application is just over ₹2 lakhs, and there is generally no upper limit, though it can be restricted by the total issue size reserved for the HNI quota.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>14. How to apply more than one application in an IPO?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>You cannot submit multiple applications from the same PAN card. This will result in all your applications being rejected. However, you can submit separate applications from the accounts of your different family members (e.g., spouse, parents), each using their own unique PAN and Demat account.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>15. What is RHP and DRHP?</h3>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>DRHP stands for Draft Red Herring Prospectus. It's the preliminary registration document filed with SEBI, containing details about the company's business, financials, and the IPO, but not the final price or issue date. RHP stands for Red Herring Prospectus. It's the updated version of the DRHP, which includes the price band and issue opening/closing dates.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="global-footer">
+    <div class="footer-top">
+      <div class="footer-section about">
+        <a href="index.html" class="header-logo" style="color: white; display: inline-block; margin-bottom: 20px;">MarketSphere</a>
+        <p style="font-size: 0.9rem; margin-bottom: 20px;">MarketSphere Fintech<br>CIN: U12345MH2025PTC123456</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-section"><h4>Resources</h4><ul><li><a href="#">Trading View</a></li><li><a href="#">NSE Holidays</a></li><li><a href="#">Community</a></li><li><a href="#">Market Timings</a></li></ul></div>
+      <div class="footer-section"><h4>Company</h4><ul><li><a href="#">About Us</a></li><li><a href="#">Careers</a></li><li><a href="#">Contact Us</a></li><li><a href="#">Blogs</a></li></ul></div>
+      <div class="footer-section"><h4>Offerings</h4><ul><li><a href="#">Compare Broker</a></li><li><a href="#">Fin Calculators</a></li><li><a href="ipo.html">IPO</a></li><li><a href="brokers.html">All Brokers</a></li></ul></div>
+      <div class="footer-section"><h4>Policy</h4><ul><li><a href="#">Terms & Conditions</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Refund Policy</a></li><li><a href="#">Disclaimer</a></li><li><a href="#">Trust & Security</a></li></ul></div>
+    </div>
+    <div class="footer-disclaimer"><p>Investment in securities markets are subject to market risks, read all the related documents carefully before investing. The content provided on the website is for educational purposes only.</p><p>MarketSphere is not a SEBI-registered research analyst company. We do not provide any kind of stock recommendations, buy/sell stock tips, or investment and trading advice. All the stock scripts shown in the MarketSphere app, website, and social media handles are for educational purposes only.</p></div>
+    
+  </footer>
+
+  <script src="/js/error-handler.js"></script>
+  <script src="/js/theme-toggle.js"></script>
+
+  <!-- This script loads the dynamic IPO data -->
+  <script src="/js/ipo.js"></script>
+
+  <!-- This script handles the static FAQ accordion -->
+  <script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        
+        document.querySelectorAll('.faq-item').forEach(item => {
+          if (item !== faqItem) {
+            item.classList.remove('active');
+          }
+        });
+        
+        faqItem.classList.toggle('active');
+      });
+    });
+  </script>
+
+  <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+
+
+</body>
+</html>

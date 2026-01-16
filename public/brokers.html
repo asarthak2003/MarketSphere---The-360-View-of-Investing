@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brokers - MarketSphere</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <header class="global-header">
+    <a href="index.html" class="header-logo">MarketSphere</a>
+    <nav class="header-nav">
+      <a href="index.html">Home</a>
+      <a href="ipo.html">IPO</a>
+      <a href="market.html">Market</a>
+      <a href="mutual-funds.html">Mutual Funds</a>
+      <a href="brokers.html">Brokers</a>
+      <a href="sectors.html">Sectors</a>
+      <a href="stock-school.html">Stock School</a>
+    </nav>
+    <div class="header-user">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-bell"></i>
+      <!-- DARK MODE TOGGLE BUTTON -->
+      <div class="theme-toggle" id="theme-toggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </div>
+      <a href="signin.html" class="btn btn-primary">Sign In</a>
+    </div>
+  </header>
+
+  <main>
+    <header class="brokers-header">
+      <h1>Compare Top Stock Brokers in India</h1>
+      <p>Find the best demat and trading account for your needs. Compare features, charges, and services side-by-side.</p>
+    </header>
+
+    <!-- This list will be filled by brokers.js -->
+    <div class="broker-list" id="broker-list-container">
+    </div>
+  </main>
+
+  <footer class="global-footer">
+    <div class="footer-top">
+      
+      <div class="footer-section about">
+        <a href="index.html" class="header-logo" style="color: white; display: inline-block; margin-bottom: 20px;">MarketSphere</a>
+        <p style="font-size: 0.9rem; margin-bottom: 20px;">MarketSphere Fintech<br>CIN: U12345MH2025PTC123456</p>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Trading View</a></li>
+          <li><a href="#">NSE Holidays</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Market Timings</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>MarketSphere</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Offerings</h4>
+        <ul>
+          <li><a href="#">Compare Broker</a></li>
+          <li><a href="#">Fin Calculators</a></li>
+          <li><a href="ipo.html">IPO</a></li>
+          <li><a href="brokers.html">All Brokers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Policy</h4>
+        <ul>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Trust & Security</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-disclaimer">
+      <p>Investment in securities markets are subject to market risks, read all the related documents carefully before investing. The content provided on the website is for educational purposes only.</p>
+      <p>MarketSphere is not a SEBI-registered research analyst company. We do not provide any kind of stock recommendations, buy/sell stock tips, or investment and trading advice. All the stock scripts shown in the MarketSphere app, website, and social media handles are for educational purposes only.</p>
+    </div>
+    </footer>
+
+    <script src="/js/error-handler.js"></script>
+<script src="/js/theme-toggle.js"></script>
+  <script src="/js/brokers.js"></script>
+  
+  <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+
+
+</body>
+</html>

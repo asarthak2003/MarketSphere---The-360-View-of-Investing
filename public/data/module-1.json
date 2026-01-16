@@ -1,0 +1,28 @@
+{
+  "title": "Module 1: Introduction to the Stock Market",
+  "imageUrl": "https://www.sbisecurities.in/fileserver/marketing/images/stock-market-analysis5.png",
+  "content": [
+    {"type": "p", "text": "Welcome to the first step on your investment journey. This module is for absolute beginners, designed to make the stock market approachable and demystify basic concepts. Let's dive in."},
+    {"type": "h2", "text": "What is a Stock? (Understanding Ownership)"},
+    {"type": "p", "text": "A stock (also known as \"equity\") represents a share of ownership in a public company. When you buy a share of a company's stock, you are buying a small piece of that company. You become a part-owner, or a \"shareholder.\""},
+    {"type": "p", "text": "For example, if a company has 1,000 shares outstanding and you buy 10 shares, you own 1% of that company."},
+    {"type": "h2", "text": "What is the Stock Market?"},
+    {"type": "p", "text": "The stock market is not a physical place, but a vast network of exchanges. Think of it as a giant, global marketplace (like an eBay or Amazon) where buyers and sellers come together to trade stocks. The \"market\" is where the price of each stock is determined by supply and demand."},
+    {"type": "h2", "text": "Why Do Companies Issue Stocks? (IPOs)"},
+    {"type": "p", "text": "Companies need money (\"capital\") to grow. They might want to build new factories, hire more employees, or develop new products. To raise this money, a private company can \"go public\" by issuing shares to the public for the first time. This process is called an <strong>Initial Public Offering (IPO)</strong>. In return for the money, the company gives up a portion of its ownership to the public shareholders."},
+    {"type": "h2", "text": "Why Should You Invest?"},
+    {"type": "p", "text": "While saving money in a bank account is safe, it often doesn't grow fast enough to beat inflation (the rising cost of goods). Investing gives your money the potential to grow much faster over the long term."},
+    {"type": "ul", "items": [
+      "<strong>Build Wealth:</strong> Your money works for you, growing through company profits (dividends) and increases in the stock's price (capital gains).",
+      "<strong>Beat Inflation:</strong> Historically, the stock market has provided returns significantly higher than the rate of inflation.",
+      "<strong>Compound Interest:</strong> The \"8th Wonder of the World.\" This is when your investment returns start earning their own returns, causing your wealth to grow exponentially over time."
+    ]},
+    {"type": "h2", "text": "Key Players"},
+    {"type": "p", "text": "There are three main groups you should know:"},
+    {"type": "ol", "items": [
+      "<strong>Stock Exchanges:</strong> These are the specific venues where trading happens. Think of the National Stock Exchange (NSE) or the Bombay Stock Exchange (BSE) in India.",
+      "<strong>Brokers:</strong> These are the companies (like Zerodha, Upstox, or Groww) that are licensed to buy and sell stocks on your behalf. You need an account with a broker to invest.",
+      "<strong>Regulators:</strong> These are government agencies (like SEBI in India) that protect investors and ensure the market is fair and transparent."
+    ]}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "level1": [
+    {"moduleNumber": "Module 1", "title": "Introduction to the Stock Market", "description": "What is a stock? What is the stock market? Why do companies go public?", "link": "module-1.html"},
+    {"moduleNumber": "Module 2", "title": "Core Concepts & Terminology", "description": "Learn the lingo: Bull vs. Bear markets, Dividends, Market Cap, and Types of Stocks.", "link": "module-1.html"},
+    {"moduleNumber": "Module 3", "title": "Getting Started (The \"How-To\")", "description": "How to choose a broker, open an account, and place your very first trade.", "link": "module-1.html"},
+    {"moduleNumber": "Module 4", "title": "Different Ways to Invest", "description": "Explore stocks, mutual funds, Exchange-Traded Funds (ETFs), and bonds.", "link": "module-1.html"},
+    {"moduleNumber": "Module 5", "title": "The Golden Rules of Investing", "description": "Learn about Risk vs. Reward, Diversification, Time Horizon, and Compound Interest.", "link": "module-1.html"}
+  ],
+  "level2": [
+    {"moduleNumber": "Module 6", "title": "Fundamental Analysis", "description": "Learn to read financial statements (Income, Balance Sheet) and key ratios (P/E, EPS, ROE).", "link": "module-1.html"},
+    {"moduleNumber": "Module 7", "title": "Technical Analysis", "description": "Read charts, understand patterns, and use indicators like Moving Averages and RSI.", "link": "module-1.html"},
+    {"moduleNumber": "Module 8", "title": "Investing Strategies", "description": "Discover different styles: Value, Growth, Dividend, and Passive Index Investing.", "link": "module-1.html"}
+  ],
+  "level3": [
+    {"moduleNumber": "Module 9", "title": "Advanced Risk Management", "description": "Master portfolio allocation, rebalancing, position sizing, and stop-loss orders.", "link": "module-1.html"},
+    {"moduleNumber": "Module 10", "title": "Introduction to Options Trading", "description": "Understand Calls, Puts, Strike Prices, and basic strategies like Covered Calls.", "link": "module-1.html"},
+    {"moduleNumber": "Module 11", "title": "Other Financial Instruments", "description": "Get an overview of Futures, Commodities, Forex, and Cryptocurrency as an asset class.", "link": "module-1.html"},
+    {"moduleNumber": "Module 12", "title": "Behavioral Finance", "description": "Learn about the psychology of Fear & Greed, common biases, and disciplined investing.", "link": "module-1.html"}
+  ],
+  "practical": [
+    {"moduleNumber": "Module 13", "title": "Tools & Platforms", "description": "Tutorials on using stock screeners, charting platforms, and reading financial news.", "link": "module-1.html"},
+    {"moduleNumber": "Module 14", "title": "Paper Trading Simulator", "description": "Practice with \"play money\" in a virtual trading platform without any real risk.", "link": "module-1.html"},
+    {"moduleNumber": "Module 15", "title": "Case Studies & Analysis", "description": "Weekly stock deep dives and analysis of historical market events.", "link": "module-1.html"},
+    {"moduleNumber": "Module 16", "title": "Community & Resources", "description": "Join the community forum, take quizzes, and check out our recommended reading list.", "link": "module-1.html"}
+  ]
+}

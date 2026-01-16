@@ -1,0 +1,102 @@
+[
+  {
+    "name": "COMPANY Bluechip Fund",
+    "category": "Equity - Large Cap",
+    "description": "An open-ended equity scheme predominantly investing in large-cap stocks.",
+    "stats": [
+      {"label": "1Y Return", "value": "18.5%", "isPositive": true},
+      {"label": "3Y Return", "value": "14.2%", "isPositive": true},
+      {"label": "AUM", "value": "₹5,200 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Balanced Fund",
+    "category": "Hybrid - Aggressive",
+    "description": "An open-ended hybrid scheme investing predominantly in equity and equity-related instruments.",
+    "stats": [
+      {"label": "1Y Return", "value": "15.2%", "isPositive": true},
+      {"label": "3Y Return", "value": "12.1%", "isPositive": true},
+      {"label": "AUM", "value": "₹3,100 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Tax Saver Fund",
+    "category": "Equity - ELSS",
+    "description": "An open-ended equity-linked saving scheme with a statutory lock-in of 3 years and tax benefits.",
+    "stats": [
+      {"label": "1Y Return", "value": "20.1%", "isPositive": true},
+      {"label": "3Y Return", "value": "16.8%", "isPositive": true},
+      {"label": "AUM", "value": "₹1,800 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Midcap Fund",
+    "category": "Equity - Mid Cap",
+    "description": "An open-ended equity scheme investing in emerging mid-cap companies with high growth potential.",
+    "stats": [
+      {"label": "1Y Return", "value": "22.5%", "isPositive": true},
+      {"label": "3Y Return", "value": "18.3%", "isPositive": true},
+      {"label": "AUM", "value": "₹2,500 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Smallcap Fund",
+    "category": "Equity - Small Cap",
+    "description": "A high-risk, high-return scheme investing in small-cap stocks with undiscovered potential.",
+    "stats": [
+      {"label": "1Y Return", "value": "28.0%", "isPositive": true},
+      {"label": "3Y Return", "value": "21.5%", "isPositive": true},
+      {"label": "AUM", "value": "₹1,200 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Liquid Fund",
+    "category": "Debt - Liquid",
+    "description": "A low-risk debt fund for parking surplus cash for short periods. High liquidity.",
+    "stats": [
+      {"label": "1Y Return", "value": "6.8%", "isPositive": true},
+      {"label": "3Y Return", "value": "5.5%", "isPositive": true},
+      {"label": "AUM", "value": "₹10,500 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Nifty 50 Index Fund",
+    "category": "Index Fund",
+    "description": "A passively managed fund that mirrors the Nifty 50 index. Low cost and broad market exposure.",
+    "stats": [
+      {"label": "1Y Return", "value": "17.2%", "isPositive": true},
+      {"label": "3Y Return", "value": "13.8%", "isPositive": true},
+      {"label": "AUM", "value": "₹4,000 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Corporate Bond Fund",
+    "category": "Debt - Corporate Bond",
+    "description": "Invests in high-quality corporate bonds, aiming for stable returns with moderate risk.",
+    "stats": [
+      {"label": "1Y Return", "value": "7.2%", "isPositive": true},
+      {"label": "3Y Return", "value": "6.1%", "isPositive": true},
+      {"label": "AUM", "value": "₹2,200 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Global Equity Fund",
+    "category": "International",
+    "description": "Invests in a diversified portfolio of global stocks, giving you exposure to international markets.",
+    "stats": [
+      {"label": "1Y Return", "value": "19.5%", "isPositive": true},
+      {"label": "3Y Return", "value": "11.2%", "isPositive": true},
+      {"label": "AUM", "value": "₹900 Cr"}
+    ]
+  },
+  {
+    "name": "COMPANY Gold Fund",
+    "category": "Commodity",
+    "description": "An open-ended fund that invests in Gold ETFs, providing a hedge against inflation.",
+    "stats": [
+      {"label": "1Y Return", "value": "14.0%", "isPositive": true},
+      {"label": "3Y Return", "value": "9.8%", "isPositive": true},
+      {"label": "AUM", "value": "₹750 Cr"}
+    ]
+  }
+]
