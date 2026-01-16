@@ -61,9 +61,6 @@ The application uses a **hybrid data architecture**, combining live APIs, web sc
 ### 🏠 Home Page
 <img src="images/home-light.png" width="800"/>
 
-### ✨ Feature Overview
-<img src="images/home-features.png" width="800"/>
-
 ### 📢 IPO Tracking
 <img src="images/ipo-light.png" width="800"/>
 <img src="images/ipo-dark.png" width="800"/>
