@@ -158,7 +158,7 @@ The application uses a **hybrid data architecture**, combining live APIs, web sc
 
 ### Installation
 ```bash
-git clone https://github.com/asarthak2003/marketsphere.git
+git clone https://github.com/asarthak2003/MarketSphere---The-360-View-of-Investing
 cd marketsphere
 npm install
 ```
