@@ -59,35 +59,35 @@ The application uses a **hybrid data architecture**, combining live APIs, web sc
 ## 📸 Images
 
 ### 🏠 Home Page
-![Home Page - Light Mode](images/home-light.png)
+<img src="images/home-light.png" width="800"/>
 
 ### ✨ Feature Overview
-![Feature Cards](images/home-features.png)
+<img src="images/home-features.png" width="800"/>
 
 ### 📢 IPO Tracking
-![IPO Page - Light Mode](images/ipo-light.png)
-![IPO Page - Dark Mode](images/ipo-dark.png)
+<img src="images/ipo-light.png" width="800"/>
+<img src="images/ipo-dark.png" width="800"/>
 
 ### 📈 Real-Time Stock Search
-![Market Search](images/market-search.png)
+<img src="images/market-search.png" width="800"/>
 
 ### 💰 Mutual Funds
-![Mutual Funds](images/mutual-funds.png)
+<img src="images/mutual-funds.png" width="800"/>
 
 ### 🏦 Broker Comparison
-![Broker Comparison](images/brokers.png)
+<img src="images/brokers.png" width="800"/>
 
 ### 🏭 Sector Analysis
-![Sector Analysis](images/sectors.png)
+<img src="images/sectors.png" width="800"/>
 
 ### 🎓 Stock School
-![Stock School](images/stock-school.png)
+<img src="images/stock-school.png" width="800"/>
 
 ### 📘 Stock School – Learning Module
-![Stock School Module](images/stock-school-module.png)
+<img src="images/stock-school-module.png" width="700"/>
 
 ### 🔻 Footer & Compliance
-![Footer](images/footer.png)
+<img src="images/footer.png" width="600"/>
 
 ---
 
